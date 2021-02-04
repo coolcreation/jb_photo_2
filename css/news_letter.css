@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+/*  Jeff Bohn   1/29/2021  */
+
+
+body {
+  font-family: "Redressed", 'Roboto Condensed', Verdana, Times, sans-serif;
+  margin: 0;
+  background: #eee;
+  height: auto;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  margin-left: .5em;
+  padding-top: .2em;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: 0;
+}
+h3 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    margin: 0;
+  }
+  p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin:.5em;
+  }
+
+.navStyle ul {
+  list-style: none;
+  background: #1c1c1c;
+  padding: 5px 0;
+}
+
+.navStyle li a {
+  display: block;
+  padding: 0 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 2em;
+  height: 2em;
+  border: 2px solid #383838;
+}
+.navStyle a:hover {
+  background-color: #19FF47;
+  color:  #1c1c1c;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+    -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn {
+  padding: 0.5rem 2rem;
+  border: 1px #ccc solid;
+  display: inline-block;
+  margin: 2rem 0 0;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #333;
+  transition: background 500ms ease;
+}
+
+.btn:hover {
+  background-color: #19FF47;
+  font-weight: bold;
+}
+
+.header {
+  padding: 1.5rem;
+  text-align: center;
+  background: #1c1c1c;
+  color: #fff;
+}
+
+.header h2 {
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.caption {
+  padding: 0.8rem;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: auto;
+  background-color: #1c1c1c;
+  color: white;
+}
+
+footer h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+footer p{
+    font-weight: 100;
+    font-size: 1.3rem;
+  }
+.fontColor{
+  color: white;
+}
+.share{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+footer a:hover {
+  color: #19FF47;
+  
+}
+#faqs{
+  margin-top: 5vh;
+  margin-bottom: 45vh;
+  width: 65vw;
+  height: 32vh;
+  line-height: 1.5em;;
+}
+/*  NEWS LETTER CSS  */
+
+
+}
+div {
+    margin-bottom: 1em;
+}
+label {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+span {
+    color: #19FF47; 
+}
+
+
+/*  END NEWS LETTER CSS  */
+
+
+/* Screen Sizes 500px and Up */
+@media (min-width: 500px) {
+  
+    .landing {
+      display: flex;
+      height: 100%;
+    }
+  
+    .landing-text {
+      height: 100vh;
+    }
+  
+    .landing-image {
+      height: 100vh;
+    }
+  }
+  
+  /* Screen Sizes 700px and Up */
+  @media (min-width: 700px) {
+    h2 {
+      font-weight: 700;
+      font-size: 2rem;
+      text-transform: capitalize;
+      margin: 0;
+    }
+    .navStyle ul {
+      list-style: none;
+      background: #1c1c1c;
+      padding: 5px;
+    }
+    .navStyle ul li{
+      display: inline;
+    }
+    .navStyle li a {
+      display: inline;
+      padding: 15px 10px;
+      margin: 10px;
+      background-color: black;
+    }
+    main {
+      max-width: 1700px;
+    }
+    .container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn {
+      padding: 1rem 3rem;
+    }
+    h1 {
+      font-weight: 400;
+      font-size: 2.4rem;
+      text-transform: uppercase;
+      margin-left: .5em;
+      padding-top: .2em;
+    }
+    #faqs{
+      margin-top: 5vh;
+      margin-bottom: 40vh;
+      width: 65vw;
+      height: 24vh;
+      line-height: 2.4em;;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 600px;
+    padding: 0 2em 1em;
+}
+h1 {
+    color: blue;
+    */
